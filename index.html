@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">	
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Roboto+Slab" rel="stylesheet">				
+  
+	<link rel="stylesheet" href="niconormalize.css ">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style2.css">
+    <title>MY HTML WEBPAGE STATER</title>
+</head>
+
+<body>	
+	<div id="ismtp-header" class="csmtp-header">
+
+		<div id="ismtp-logo" class ="csmtp-logo">        
+			<a href="#">
+				<img src="img/logo.png" alt="Smallterprise Solutions Logo">
+			</a>
+        </div>	
+
+		<div id="ismtp-site-title"class="csmtp-site-title">
+			<h1><a> Smallterprise Solutions</a> </h1>
+		</div>
+
+		<div id="ismtp-tagline" class="csmtp-tagline">	
+
+			<h6>...Serving visions with creative solutions</h6> 
+		</div>
+	</div> 		
+
+	<!-- NAVIGATION / NAV / TOGGLE MENU / MENU ICON / ADDITIONAL MENU-->
+
+	<nav>										
+		<!-- MENU TOGGLE / MENU ICON-->
+		<button id="ismtp-menu-icon" class="csmtp-menu-icon">						
+			<i class="fas fa-bars"></i>  MENU																	
+		</button>
+		
+		<!-- MAIN MENU -->
+		<div id="ismtp-main-nav" class="csmtp-main-nav">
+		
+				<ul>
+					<li>
+						<a class="active" href="index.html">Home</a>
+					</li>
+					
+					<li>
+						<a id="ismtp-dropdown1" class="active" href="index.html">Services</a>
+							<ul >
+								<li><a id="ismtp-dropdown2" href="#">Website Design</a>
+									<ul>
+										<li><a href="#">Static</a></li>
+										<li><a href="#"> CMS</a></a></li>
+										</ul>
+								</li>
+									
+								<li><a href="#"> Graphic Design</a></a></li>
+								<li><a href="#">Social Media Management</a></li>
+							</ul>
+					</li> 
+					
+					<li>
+						<a class="active" href="index.html">Portfolio</a>
+					</li> 
+					<li>
+						<a class="active" href="index.html">Blog</a>
+					</li> 				
+					<li>
+						<a class="active" href="index.html">Contact</a>
+					</li> 
+					
+					<!-- <li>
+						<div id="search-icon">
+							<i class="fas fa-search"></i>
+						</div>
+					</li> -->
+				</ul>
+		</div>	
+							
+		<div id="ismtp-added-nav" class="csmtp-added-nav">									
+				<ul>
+				<li>
+				<!--<marquee behavior="alternate" scrollamount="1"><p>Our Small Business Solutions</p></marquee>-->
+				<p>Our Small Business Solutions</p>
+				</li>
+				
+				<li>
+					<a href="#">Website Design/ Dev</a>
+				</li>					
+				<li>
+					<a class="active" href="#">Graphic Design</a>
+				</li>
+				<li>
+					<a href="#">Logo Design</a>
+				</li>
+				<li>
+					<a href="#">Portfolio</a>
+				</li>	
+				<li>
+					<a href="#">Website Design/ Dev</a>
+				</li>					
+				<li>
+					<a class="active" href="#">Graphic Design</a>
+				</li>
+				<li>
+					<a href="#">Logo Design</a>
+				</li>
+				<li>
+					<a href="#">Portfolio</a>
+				</li>
+				<li>
+					<a href="#">Website Design/ Dev</a>
+				</li>					
+				<li>
+					<a class="active" href="#">Graphic Design</a>
+				</li>
+				<li>
+					<a href="#">Logo Design</a>
+				</li>
+				<li>
+					<a href="#">Portfolio</a>
+				</li>	
+				<li>
+					<a href="#">Website Design/ Dev</a>
+				</li>					
+				<li>
+					<a class="active" href="#">Graphic Design</a>
+				</li>
+				<li>
+					<a href="#">Logo Design</a>
+				</li>
+				<li>
+					<a href="#">Portfolio</a>
+				</li>	
+				<li>
+					<a href="#">Website Design/ Dev</a>
+				</li>					
+				<li>
+					<a class="active" href="#">Graphic Design</a>
+				</li>
+				<li>
+					<a href="#">Logo Design</a>
+				</li>
+				<li>
+					<a href="#">Portfolio</a>
+				</li>					
+				</ul>			
+		</div>
+	</nav> <!-- #site-navigation -->
+	
+		<form role="search" method="get" id="cus-searchform" class="cus-searchform" action="">
+			<label class="screen-reader-text" for="s"></label>
+			<input type="text" value="" name="s" placeholder="...type search" id="s" /> 
+			<input type="submit" id="searchsubmit" value="Search">
+		</form>		
+	
+</br>
+</br>	
+</br>
+</br>
+</br>
+
+<!-- csmtp-site-main
+	csmtp-sect1
+		csmtp-servblog
+			csmtp-services
+			csmtp-bloglist			
+		csmtp-portresources
+			csmtp-portfolio
+			csmtp-resources
+	csmtp-sect2 -->
+	
+	
+<section id="ismtp-site-main" class="csmtp-site-main">
+	<div id="ismtp-sect1" class="csmtp-sect1">
+		<div id="ismtp-about" class="csmtp-about">
+		</br>	
+				<p>			
+					About Us
+					</br>
+					We are all about small business matters. Serving visions with creative solutions. </br>
+					Our commitment is to assist your efforts towards reaching a new business height.
+				</p>
+			<!-- <a href="#" class="btn-readmore">Learn more</a>		 -->			
+		</div >		
+	
+		<div id="ismtp-servblog" class="csmtp-servblog">
+			<div id="ismtp-services" class="csmtp-services">
+				<a href="#">
+					<h3> Our Services & Solutions</h3>
+				</a>
+				
+				<p>			
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+					cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+					cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+				</p>	
+
+				<a href="#" class="btn-readmore">Learn more</a>
+				
+			</div>
+
+			<div id="ismtp-bloglist" class="csmtp-bloglist">
+				<a href="#">
+					<h3> Small Business Articles</h3>
+				</a>
+				
+				<p>			
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+					cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+					cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+				</p>	
+
+				<a href="#" class="btn-readmore">All blog articles</a>
+				
+			</div>	
+		</div>
+			
+		<div id="ismtp-portsources" class="csmtp-portresources">	
+			<div id="ismtp-portfolio" class="csmtp-portfolio">
+				<a href="#">
+					<h3> Our Portfolio</h3>
+				</a>
+				
+				<p>			
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+					cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+					cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+				</p>	
+
+				<a href="#" class="btn-readmore">I want to see more...</a>
+				
+			</div>			
+			
+			<div id="ismtp-site-resources" class="csmtp-resources">
+				<a href="#">
+					<h3>Resources for you</h3>
+				</a>
+				
+				<p>			
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+					cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+					cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+				</p>	
+
+				<a href="#" class="btn-readmore">Browse resources </a>
+				
+			</div>		
+			
+		</div>
+	
+		<div id="ismtp-portsources" class="csmtp-portresources">	
+			<div id="ismtp-portfolio" class="csmtp-portfolio">
+				<a href="#">
+					<h3> Our Portfolio</h3>
+				</a>
+				
+				<p>			
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+					cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+					cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+				</p>	
+
+				<a href="#" class="btn-readmore">I want to see more...</a>
+				
+			</div>			
+			
+			<div id="ismtp-site-resources" class="csmtp-resources">
+				<a href="#">
+					<h3>Resources for you</h3>
+				</a>
+				
+				<p>			
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+					cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+					cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+				</p>	
+
+				<a href="#" class="btn-readmore">Browse resources </a>
+				
+			</div>		
+			
+		</div>
+
+
+			
+	</div>
+	
+	<div id="ismtp-sect2" class="csmtp-sect2">
+		<!-- <a href="#">
+			<h3> Side Bar Content</h3>
+		</a>		
+			<p>			
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+				cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis, ullam facilis consequuntur eligendi sit accusamus tempora
+				cum distinctio pariatur ipsa quod, odit dolorum non vero recusandae? Corporis voluptatem optio nulla.
+			</p>
+		<a href="#" class="btn-readmore">Learn more</a>	 -->				
+	</div >
+
+
+</section>
+
+<div id="ismtp-about2" class="csmtp-about2">
+		</br>	
+				<p>			
+					About Us
+					</br>
+					We are all about small business matters. Serving visions with creative solutions. </br>
+					Our commitment is to assist your efforts towards reaching a new business height.
+				</p>
+			<!-- <a href="#" class="btn-readmore">Learn more</a>		 -->			
+		</div >	
+
+
+	<footer> <!--id="colophon" class="site-footer"-->
+
+
+		<div id="quick-links">
+			<h4>Quick Links</h4>
+			<p>
+			<ul>
+			<li>
+			<a href="#">Home</a>
+			</li>
+
+			<li>
+			<a href="#">Privacy Policy</a>
+			</li>
+
+			</ul>
+			</p>
+		</div>							
+
+		
+		<div id="social-medialinks">
+			<h4>Stay Connected</h4>
+			
+			
+			<ul>
+				<li>
+				<a href="#">
+				<i class="fab fa-facebook"></i>
+				</a>
+				</li>
+				<li>
+				<a href="#">
+				<i class="fab fa-instagram"></i>
+				</a>
+				</li>
+				<li>
+				<a href="#">
+				<i class="fab fa-linkedin"></i>
+				</a>
+				</li>
+				<li>
+				<a href="#">
+				<i class="fab fa-youtube"></i>
+				</a>
+				</li>
+				  
+			</ul>
+			
+		</div>	
+    
+		<div id="copyright-area">
+			<h5>
+				Copyright © 2019 </br>
+				<a href="#">
+					
+					<a href="#">Smallterprise Solutions</a>
+					
+				</a>
+			</br>			
+				Website Designed By: <a href="https://github.com/martinagorh">Martin Agorh</a>
+				 </br>
+				<!-- Wordpress Theme:	<a href="http://smallterprisesolutions.com">Smallterprise Unlimited</a> -->
+			</h5>
+
+			</br>
+		</div>
+
+  <p id="demo"></p>		
+		
+	</footer><!-- #colophon -->
+
+	<div id="whatsapp-ibutton" class="whatsapp-cbutton">				
+	
+		<a href="https://wa.me/233502776416?text=Hello!%20I'd%20like%20to%20do%20business%20with%20you" target="_blank" rel="noopener noreferrer">
+			<i class="fab fa-whatsapp"></i>
+		</a>
+		
+		<button class="chatbox1"> 
+			<a href="https://wa.me/233502776416?text=Hello!%20I'd%20like%20to%20do%20business%20with%20you" target="_blank" rel="noopener noreferrer">
+				Click to start a WhatsApp Chat	
+			</a>
+		</button>
+		<br>
+		
+		<button class="chatbox2"> 
+			<a href="https://wa.me/233502776416?text=Hello!%20I'd%20like%20to%20do%20business%20with%20you" target="_blank" rel="noopener noreferrer">
+				+233 (0) 502 776 416 
+			</a>							
+		</button>	
+	</div>	
+  
+		<script src="main.js"></script>
+	</body>
+</html>
